@@ -3,7 +3,25 @@ import React from "react";
 const RightNav = () => {
   return (
     <div>
-      <p>right nav</p>
+      <nav>
+        <ul className="flex space-x-6 text-lg mt-4 mr-4 font-medium">
+          <a className="cursor-pointer">
+            <li>Home</li>
+          </a>
+          <a className="cursor-pointer">
+            <li>About</li>
+          </a>
+          <a className="cursor-pointer">
+            <li>Skills</li>
+          </a>
+          <a className="cursor-pointer">
+            <li>Projects</li>
+          </a>
+          <a className="cursor-pointer">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
     </div>
   );
 };
