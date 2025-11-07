@@ -4,8 +4,8 @@ const RightNav = () => {
   return (
     <div>
       <nav>
-        <ul className="flex space-x-6 text-lg mt-4 mr-4 font-medium text-cyan-200">
-          <a className="cursor-pointer">
+        <ul className="flex space-x-6 text-cyan-100 text-lg">
+          <a className="cursor-pointer transition duration-300 hover:text-cyan-400 hover:underline">
             <li>Home</li>
           </a>
           <a className="cursor-pointer">
