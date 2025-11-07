@@ -4,7 +4,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="App bg-indigo-950 min-h-screen">
       <Navbar />
     </div>
   );
